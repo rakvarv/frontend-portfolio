@@ -1,6 +1,6 @@
 import './App.css';
 import AppBar from './components/AppBar'
-import Portfolio from './components/Portfolio'
+// import Portfolio from './components/Portfolio'
 import Myskills from './components/Technologies'
 import Myprograms from './components/Programs'
 import Myframeworks from './components/Frameworks'
