@@ -1,7 +1,7 @@
 import './App.css';
 // import Appbar from './components/Appbar'
 // import Portfolio from './components/Portfolio'
-// import Myskills from './components/Technologies'
+import Myskills from './components/Technologies'
 // import Myprograms from './components/Programs'
 // import Myframeworks from './components/Frameworks'
 import Biography from "./components/Biography";
@@ -30,7 +30,7 @@ function App() {
         <Biography/>
         <h1>My Skills</h1>
         <h2>Programming Languages</h2>
-        {/* <Myskills/> */}
+        <Myskills/>
         <h2>Frameworks</h2>
         {/* <Myprograms/> */}
         <h2>Programs/Applications</h2>
