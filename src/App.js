@@ -6,8 +6,8 @@ import './App.css';
 // import Myframeworks from './components/Frameworks'
 // import Biography from "./components/Biography";
 
-// import Avatar from "./images/para_background.jpg";
-// import {Parallax} from "react-parallax";
+import Avatar from "./images/para_background.jpg";
+import {Parallax} from "react-parallax";
 import * as React from "react";
 import {Helmet} from "react-helmet";
 
@@ -21,11 +21,11 @@ function App() {
         react"/>
       </Helmet>
       {/* <Appbar/> */}
-        {/* <Parallax strength={600} bgImage={Avatar}>
+        <Parallax strength={600} bgImage={Avatar}>
           <div className="content">
             <div className="text-content"></div>
           </div>
-        </Parallax> */}
+        </Parallax>
         <h1>About Me</h1>
         {/* <Biography/> */}
         <h1>My Skills</h1>
