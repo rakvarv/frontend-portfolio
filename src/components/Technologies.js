@@ -1,11 +1,11 @@
 import * as React from 'react';
-import HTML5 from '../images/skills/HTML5.svg.png'
-import CSSLogo from '../images/skills/CSS.png'
-import Python from '../images/skills/python.png'
-import JS from '../images/skills/JS.png'
-import MySQL from '../images/skills/mysql.png'
-import PHP from '../images/skills/PHP.png'
-import Java from '../images/skills/java.png'
+import HTML5 from '../images/HTML5.svg.png'
+import CSSLogo from '../images/CSS.png'
+import Python from '../images/python.png'
+import JS from '../images/JS.png'
+import MySQL from '../images/mysql.png'
+import PHP from '../images/PHP.png'
+import Java from '../images/java.png'
 import {Grid} from "@mui/material";
 
 export default function Myskills() {
