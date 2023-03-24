@@ -8,7 +8,7 @@ import PHP from '../images/skills/PHP.png'
 import Java from '../images/skills/java.png'
 import {Grid} from "@mui/material";
 
-export default function StandardImageList() {
+export default function Myskills() {
     return (
         <Grid container direction="row" justifyContent="center" alignItems="center" spacing={2}>
             <Grid item>
