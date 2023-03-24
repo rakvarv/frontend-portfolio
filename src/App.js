@@ -1,5 +1,5 @@
 import './App.css';
-import AppBar from './components/AppBar'
+import AppBar from './components/Appbar'
 // import Portfolio from './components/Portfolio'
 import Myskills from './components/Technologies'
 import Myprograms from './components/Programs'
