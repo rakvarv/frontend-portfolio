@@ -9,7 +9,7 @@ import * as React from 'react';
 import { Grid } from '@mui/material';
 
 
-export default function Myskills() {
+export default function StandardImageList() {
     return (
         <Grid container direction="row" justifyContent="center" alignItems="center" spacing={2}>
             <Grid item>
