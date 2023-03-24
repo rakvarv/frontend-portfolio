@@ -4,7 +4,7 @@ import './App.css';
 // import Myskills from './components/Technologies'
 // import Myprograms from './components/Programs'
 // import Myframeworks from './components/Frameworks'
-// import Biography from "./components/Biography";
+import Biography from "./components/Biography";
 
 import Avatar from "./images/para_background.jpg";
 import {Parallax} from "react-parallax";
@@ -27,7 +27,7 @@ function App() {
           </div>
         </Parallax>
         <h1>About Me</h1>
-        {/* <Biography/> */}
+        <Biography/>
         <h1>My Skills</h1>
         <h2>Programming Languages</h2>
         {/* <Myskills/> */}
