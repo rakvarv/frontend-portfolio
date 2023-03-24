@@ -6,7 +6,8 @@ import * as React from 'react';
 // import MySQL from '../images/mysql.png'
 // import PHP from '../images/PHP.png'
 // import Java from '../images/java.png'
-import {Grid} from "@mui/material";
+import { Grid } from '@mui/material';
+
 
 export default function Myskills() {
     return (
