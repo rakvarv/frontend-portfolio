@@ -9,13 +9,13 @@ import * as React from 'react';
 import { Grid } from '@mui/material';
 
 
-export default function StandardImageList() {
+export default function Myskills() {
     return (
         <Grid container direction="row" justifyContent="center" alignItems="center" spacing={2}>
             <Grid item>
                 <img style={{width:"256px"}}
-                    src={require('../images/HTML5.svg.png').default}
-                    alt={"HTML5"}
+                    src={require('../images/CSS.png').default}
+                    alt={"CSS"}
                 />
             </Grid>
             {/* <Grid item>
