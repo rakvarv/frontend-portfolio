@@ -22,7 +22,6 @@ function App() {
       </Helmet>
       <AppBar/>
         <Parallax strength={600} bgImage={Avatar}>
-          <Portfolio/>
           <div className="content">
             <div className="text-content"></div>
           </div>
