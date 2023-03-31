@@ -3,6 +3,7 @@ import Avatar from '../images/para_background.jpg'
 
 // handles displaying information about me to the user
 export default function Biography() {
+    const images = [Avatar]
     return (
         <section id="about">
             <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center">
@@ -32,12 +33,12 @@ export default function Biography() {
                         {/*</a>*/}
                     </div>
                 </div>
-                <div style={{flex: "flex", justifyContent: "center"}}>
-                    <img style={{width:"10%", borderRadius:"50%"}}
-                        className="object-cover object-center rounded"
-                        alt="hero"
-                        src={Avatar}
-                    />
+                <div className="image-flexbox">
+                {images.map((imageUrl, index) => (
+                    <div key={index} className="image-container">
+                    <img src={imageUrl} alt={`Image ${index}`} />
+                    </div>
+                ))}
                 </div>
             </div>
         </section>
