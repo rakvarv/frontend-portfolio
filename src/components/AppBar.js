@@ -1,30 +1,14 @@
-import * as React from 'react';
-import AppBar from '@mui/material/AppBar';
-import Box from '@mui/material/Box';
-import Toolbar from '@mui/material/Toolbar';
-import Typography from '@mui/material/Typography';
-import IconButton from '@mui/material/IconButton';
-// import MenuIcon from '@mui/icons-material/Menu';
+import React from 'react';
 
 export default function Appbar() {
-    return (
-        <Box sx={{ flexGrow: 1 }}>
-            <AppBar position="static">
-                <Toolbar>
-                    <IconButton
-                        size="large"
-                        edge="start"
-                        color="inherit"
-                        aria-label="menu"
-                        sx={{ mr: 2 }}
-                    >
-                        {/*<MenuIcon />*/}
-                    </IconButton>
-                    <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-                        Roald André Kvarv's Portfolio
-                    </Typography>
-                </Toolbar>
-            </AppBar>
-        </Box>
-    );
+  return (
+    <nav style={{ backgroundColor: '#333', color: '#fff', padding: '1rem' }}>
+      <div style={{ display: 'flex', alignItems: 'center' }}>
+        <button style={{ backgroundColor: 'transparent', border: 'none', marginRight: '1rem', cursor: 'pointer' }}>
+          {/*<MenuIcon />*/}
+        </button>
+        <h1 style={{ margin: 0 }}>Roald André Kvarv's Portfolio</h1>
+      </div>
+    </nav>
+  );
 }

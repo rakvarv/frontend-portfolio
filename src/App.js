@@ -1,5 +1,5 @@
 import './App.css';
-// import Appbar from './components/Appbar'
+import Appbar from './components/Appbar'
 // import Portfolio from './components/Portfolio'
 import Myskills from './components/Technologies'
 import Myprograms from './components/Programs'
@@ -21,7 +21,7 @@ function App() {
         <meta name="description" content="Deverloper portfolio for Roald André Kvarv, made using Java/Springboot and
         react"/>
       </Helmet>
-      {/* <Appbar/> */}
+      <Appbar/>
         <Parallax strength={600} bgImage={Avatar}>
           <div className="content">
             <div className="text-content">Some cool text</div>
