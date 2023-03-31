@@ -32,7 +32,7 @@ export default function Biography() {
                         {/*</a>*/}
                     </div>
                 </div>
-                <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+                <div>
                     <img style={{width:"10%", borderRadius:"50%"}}
                         className="object-cover object-center rounded"
                         alt="hero"
