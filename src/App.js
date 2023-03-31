@@ -1,7 +1,7 @@
 import './App.css';
 // import Appbar from './components/Appbar'
 // import Portfolio from './components/Portfolio'
-import Myskills from './components/Technologies'
+// import Myskills from './components/Technologies'
 // import Myprograms from './components/Programs'
 // import Myframeworks from './components/Frameworks'
 import Biography from "./components/Biography";
