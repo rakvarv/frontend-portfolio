@@ -5,6 +5,7 @@ import Myskills from './components/Technologies'
 import Myprograms from './components/Programs'
 import Myframeworks from './components/Frameworks'
 import Biography from "./components/Biography";
+import About from "./components/About";
 
 import Avatar from "./images/para_background.jpg";
 import {Parallax} from "react-parallax";
@@ -35,6 +36,7 @@ function App() {
         <Myprograms/>
         <h2>Programs/Applications</h2>
         <Myframeworks/>
+        <About/>
     </div>
   );
 }
