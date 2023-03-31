@@ -23,7 +23,7 @@ function App() {
       {/* <Appbar/> */}
         <Parallax strength={600} bgImage={Avatar}>
           <div className="content">
-            <div className="text-content"></div>
+            <div className="text-content">Some cool text</div>
           </div>
         </Parallax>
         <h1>About Me</h1>
