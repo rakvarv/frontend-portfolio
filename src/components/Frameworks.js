@@ -1,8 +1,8 @@
 import * as React from 'react';
-import Git from '../images/skills/Git.png'
-import Figma from '../images/skills/figma.png'
-import IJ from '../images/skills/IJ.png'
-import VSC from '../images/skills/vsc.png'
+import Git from '../images/Git.png'
+import Figma from '../images/figma.png'
+import IJ from '../images/IJ.png'
+import VSC from '../images/vsc.png'
 
 export default function StandardImageList() {
     const images = [
