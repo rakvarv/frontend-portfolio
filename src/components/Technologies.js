@@ -13,11 +13,14 @@ export default function Myskills() {
     return (
         <Grid container direction="row" justifyContent="center" alignItems="center" spacing={2}>
             <Grid item>
+                <p>This is crazy technology</p>
+            </Grid>
+            {/* <Grid item>
                 <img style={{width:"256px"}}
                     src={require('../images/CSS.png').default}
                     alt={"CSS"}
                 />
-            </Grid>
+            </Grid> */}
             {/* <Grid item>
                 <img style={{width:"256px"}}
                     src={CSSLogo}
