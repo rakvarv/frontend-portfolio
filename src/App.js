@@ -30,7 +30,7 @@ function App() {
         <Biography/>
         <h1>My Skills</h1>
         <h2>Programming Languages</h2>
-        <Myskills/>
+        {/* <Myskills/> */}
         <h2>Frameworks</h2>
         {/* <Myprograms/> */}
         <h2>Programs/Applications</h2>
