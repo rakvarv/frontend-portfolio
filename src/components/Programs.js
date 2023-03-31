@@ -1,7 +1,7 @@
 import * as React from 'react';
-import SLogo from '../images/skills/springboot.png'
-import Flask from '../images/skills/flask.png'
-import Boostrap from '../images/skills/Bootstrap_logo.svg.png'
+import SLogo from '../images/springboot.png'
+import Flask from '../images/flask.png'
+import Boostrap from '../images/Bootstrap_logo.svg.png'
 
 export default function StandardImageList() {
     const images = [
