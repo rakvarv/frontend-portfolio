@@ -32,7 +32,7 @@ export default function Biography() {
                         {/*</a>*/}
                     </div>
                 </div>
-                <div>
+                <div className="container mx-auto flex ox-10 py-20 md:flex-row flex-col items-center">
                     <img style={{width:"10%", borderRadius:"50%"}}
                         className="object-cover object-center rounded"
                         alt="hero"
