@@ -3,7 +3,7 @@ import './App.css';
 // import Portfolio from './components/Portfolio'
 import Myskills from './components/Technologies'
 import Myprograms from './components/Programs'
-// import Myframeworks from './components/Frameworks'
+import Myframeworks from './components/Frameworks'
 import Biography from "./components/Biography";
 
 import Avatar from "./images/para_background.jpg";
@@ -34,7 +34,7 @@ function App() {
         <h2>Frameworks</h2>
         <Myprograms/>
         <h2>Programs/Applications</h2>
-        {/* <Myframeworks/> */}
+        <Myframeworks/>
     </div>
   );
 }
